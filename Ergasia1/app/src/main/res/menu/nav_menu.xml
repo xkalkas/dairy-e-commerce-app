@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/baseline_home_24"
+                android:title="Home"/>
+            <item
+                android:id="@+id/nav_query"
+                android:icon="@drawable/baseline_query_24"
+                android:title="Query"/>
+        </menu>
+    </item>
+
+    <item android:title="Company Table">
+        <menu>
+            <item
+                android:id="@+id/nav_insert_company"
+                android:icon="@drawable/baseline_add_24"
+                android:title="Company"/>
+            <item
+                android:id="@+id/nav_delete_company"
+                android:icon="@drawable/baseline_remove_24"
+                android:title="Company"/>
+
+            <item
+                android:id="@+id/nav_edit_company"
+                android:icon="@drawable/baseline_edit_24"
+                android:title="Company"/>
+
+        </menu>
+    </item>
+
+
+
+    <item android:title="Product Table">
+        <menu>
+            <item
+                android:id="@+id/nav_insert_product"
+                android:icon="@drawable/baseline_add_24"
+                android:title="Product"/>
+            <item
+                android:id="@+id/nav_delete_product"
+                android:icon="@drawable/baseline_remove_24"
+                android:title="Product"/>
+
+            <item
+                android:id="@+id/nav_edit_product"
+                android:icon="@drawable/baseline_edit_24"
+                android:title="Product"/>
+        </menu>
+    </item>
+
+    <item android:title="Supply Table">
+        <menu>
+            <item
+                android:id="@+id/nav_insert_supply"
+                android:icon="@drawable/baseline_add_24"
+                android:title="Supply"/>
+            <item
+                android:id="@+id/nav_delete_supply"
+                android:icon="@drawable/baseline_remove_24"
+                android:title="Supply"/>
+
+            <item
+                android:id="@+id/nav_edit_supply"
+                android:icon="@drawable/baseline_edit_24"
+                android:title="Supply"/>
+        </menu>
+    </item>
+
+    <item android:title="Customer Base">
+        <menu>
+            <item
+                android:id="@+id/nav_insert_customer"
+                android:icon="@drawable/baseline_add_24"
+                android:title="Supply"/>
+            <item
+                android:id="@+id/nav_delete_customer"
+                android:icon="@drawable/baseline_remove_24"
+                android:title="Supply"/>
+        </menu>
+    </item>
+
+    <item android:title="Transaction Base">
+        <menu>
+            <item
+                android:id="@+id/nav_insert_trans"
+                android:icon="@drawable/baseline_add_24"
+                android:title="Supply"/>
+            <item
+                android:id="@+id/nav_delete_trans"
+                android:icon="@drawable/baseline_remove_24"
+                android:title="Supply"/>
+        </menu>
+    </item>
+
+</menu>
